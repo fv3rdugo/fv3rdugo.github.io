@@ -263,19 +263,19 @@ body {
  *********************************************/
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
-  border-right-color: #fff; }
+  border-right-color: #f2c179; }
 
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
-  border-left-color: #fff; }
+  border-left-color: #f2c179; }
 
 .reveal .controls .navigate-up,
 .reveal .controls .navigate-up.enabled {
-  border-bottom-color: #fff; }
+  border-bottom-color: #f2c179; }
 
 .reveal .controls .navigate-down,
 .reveal .controls .navigate-down.enabled {
-  border-top-color: #fff; }
+  border-top-color: #f2c179; }
 
 .reveal .controls .navigate-left.enabled:hover {
   border-right-color: #f2c179; }
