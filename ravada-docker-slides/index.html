@@ -44,8 +44,15 @@
 					>
 				 </section>
 				 <section>
+					<span class="menu-title" style="display: none">Asccinema</span>
 				 <asciinema-player src="/279409.cast" cols="125" rows="45"></asciinema-player>
   <script src="lib/js/asciinema-player.js"></script>
+				 </section>
+				 <section
+					data-markdown="dockers2.md"
+					data-separator="^\n---$" data-separator-vertical="^\n\+\+\+$"
+					data-separator-notes="^Note:"
+					>
 				 </section>
 			</div>
 		</div>
@@ -61,7 +68,7 @@
  				width: 1600,
     			height: 900,
 				controls: true,
-        		controlsTutorial: false,
+        		controlsTutorial: true,
         		slideNumber: 'c/t',
         		//transition: 'fade', // none/fade/slide/convex/concave/zoom
         		transition: true,
@@ -82,7 +89,7 @@
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/reveal.js-menu/menu.js', async: true},
-					{ src: 'plugin/title-footer/title-footer.js', async: true, callback: function() { title_footer.initialize(); } }
+					{ src: 'plugin/title-footer/title-footer.js', async: true, callback: function() { title_footer.initialize(); } },
 				]
 			});
 		</script>
